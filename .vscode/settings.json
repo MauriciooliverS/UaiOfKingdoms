@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Uai of Kingdoms.sln"
+    "dotnet.defaultSolution": "UaiOfKingdoms.sln"
 }
