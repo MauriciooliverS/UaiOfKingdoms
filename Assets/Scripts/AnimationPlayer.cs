@@ -5,12 +5,14 @@ public class AnimationPlayer : MonoBehaviour
     [SerializeField] private Animator animPlayer;
     [SerializeField] private MovementPlayer move;
     private bool estaNoChao = true;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animPlayer = GetComponent<Animator>();
         move = GetComponent<MovementPlayer>();
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -87,6 +89,11 @@ public class AnimationPlayer : MonoBehaviour
         {
             animPlayer.SetBool("NoChao", true);
             estaNoChao = true;
+        }
+        if(collision.gameObject.CompareTag("Morte"))
+        {
+            animPlayer.SetTrigger("Morte");
+            Time.timeScale = 0;
         }
     }
     void Update()
