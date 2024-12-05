@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 14926487}
   m_Layer: 0
   m_Name: LavaFundo
-  m_TagString: Untagged
+  m_TagString: Morte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,6 +305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -365,6 +369,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &41319731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41319725}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1001 &41537214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -420,6 +445,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -486,10 +515,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 747454307}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!4 &51759359 stripped
 Transform:
@@ -515,6 +551,11 @@ GameObject:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
   m_PrefabInstance: {fileID: 2042544286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &87573734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1480312879}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &93970155 stripped
 Transform:
@@ -603,6 +644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -669,6 +714,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &123142322
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123142316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1001 &125639151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -720,6 +786,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -780,6 +850,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -919,6 +993,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
   m_PrefabInstance: {fileID: 425402565}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &140562177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1334614009}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &141523298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 13e59d8fcc8982745933cf4da8a5aeef, type: 3}
@@ -980,6 +1059,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1173,6 +1256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1253,6 +1340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1309,6 +1400,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -1331,6 +1426,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 123142318}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 123142322}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1 &229846400 stripped
 GameObject:
@@ -1388,7 +1486,7 @@ GameObject:
   - component: {fileID: 245710038}
   m_Layer: 0
   m_Name: Lava (1)
-  m_TagString: Untagged
+  m_TagString: Morte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1497,6 +1595,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedX: 0
   speedY: -0.7
+--- !u!1 &246229638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1543742440}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &246796813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
@@ -1564,6 +1667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1587,6 +1694,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
   m_PrefabInstance: {fileID: 1480312879}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &269033734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87573734}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -3.2558102e-21}
 --- !u!1 &270371314 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -1612,7 +1740,7 @@ GameObject:
   - component: {fileID: 281844493}
   m_Layer: 0
   m_Name: Lava (2)
-  m_TagString: Untagged
+  m_TagString: Morte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1783,6 +1911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1828,6 +1960,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &313353307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313353301}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 1.0000019, z: 0.0000004172325}
 --- !u!4 &314247785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 13e59d8fcc8982745933cf4da8a5aeef, type: 3}
@@ -1980,10 +2133,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs_wood (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1962979740}
   m_SourcePrefab: {fileID: 100100000, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
 --- !u!1 &323459247 stripped
 GameObject:
@@ -2043,6 +2203,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &324263962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324263956}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1001 &325716310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2094,6 +2275,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2220,6 +2405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2280,6 +2469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2303,7 +2496,7 @@ GameObject:
   - component: {fileID: 348117683}
   m_Layer: 0
   m_Name: Lava
-  m_TagString: Untagged
+  m_TagString: Morte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2469,6 +2662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2565,6 +2762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2615,6 +2816,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &380132940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380132934}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1001 &381432466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2670,6 +2892,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2771,6 +2997,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2958,6 +3188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3017,6 +3251,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3078,6 +3316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3137,6 +3379,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3288,6 +3534,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3448,6 +3698,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 1.0500005, z: 4}
   m_Center: {x: 0, y: -0.47499806, z: 0}
+--- !u!4 &476470314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+  m_PrefabInstance: {fileID: 1607464331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &477805572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -3558,6 +3813,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -3580,6 +3839,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1287540819}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1287540823}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &503291180 stripped
 Transform:
@@ -3703,6 +3965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3788,6 +4054,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3963,6 +4233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4032,6 +4306,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4149,6 +4427,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4327,6 +4609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4472,6 +4758,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4652,6 +4942,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &619352532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619352526}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 1.0000019, z: 0.0000004172325}
 --- !u!4 &624043830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7512c3abc398be64aa4f3927142eee18, type: 3}
@@ -4684,6 +4995,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &625443915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625443909}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 1.0000019, z: 0.0000004172325}
 --- !u!1001 &642176685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4735,6 +5067,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4979,6 +5315,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -5001,6 +5341,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1303578143}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1303578147}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &648598784 stripped
 Transform:
@@ -5131,6 +5474,7 @@ GameObject:
   - component: {fileID: 655679039}
   - component: {fileID: 655679038}
   - component: {fileID: 655679041}
+  - component: {fileID: 655679042}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5177,11 +5521,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.1
+  far clip plane: 5000
   field of view: 60
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5205,8 +5549,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655679037}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22405472, y: -0, z: -0, w: 0.9745766}
-  m_LocalPosition: {x: -19.64, y: 37.88, z: -52.34}
+  m_LocalRotation: {x: 0.20695074, y: 0.004706878, z: -0.0009956585, w: 0.97833955}
+  m_LocalPosition: {x: -19.220776, y: 28.42, z: -54.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5256,6 +5600,38 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &655679042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655679037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowDebugText: 0
+  ShowCameraFrustum: 1
+  IgnoreTimeScale: 0
+  WorldUpOverride: {fileID: 0}
+  ChannelMask: -1
+  UpdateMethod: 2
+  BlendUpdateMethod: 1
+  LensModeOverride:
+    Enabled: 0
+    DefaultMode: 2
+  DefaultBlend:
+    Style: 1
+    Time: 2
+    CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  CustomBlends: {fileID: 0}
 --- !u!1001 &662864346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5308,16 +5684,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253294812}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!4 &664939693 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
   m_PrefabInstance: {fileID: 1543742440}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &664939696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246229638}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -7.148131e-20}
 --- !u!1 &670083369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -5349,8 +5753,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f8f07987934325d43af05d795a6d080f, type: 3}
   m_PrefabInstance: {fileID: 1240249538}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &676733350
-BoxCollider:
+--- !u!64 &676733353
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5367,9 +5771,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4, y: 4, z: 1.0000006}
-  m_Center: {x: 0, y: 2, z: -0.00000031292439}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -161240112037290497, guid: f8f07987934325d43af05d795a6d080f, type: 3}
 --- !u!1 &682349703 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -5502,6 +5907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5561,6 +5970,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5686,6 +6099,11 @@ Transform:
   - {fileID: 525199666}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &709760308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1365098679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &710746209 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -5925,6 +6343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5933,6 +6355,32 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1441860250}
   m_SourcePrefab: {fileID: 100100000, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+--- !u!1 &747454304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 49668816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &747454307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747454304}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -3.2558102e-21}
 --- !u!1001 &748416998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5984,6 +6432,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6044,6 +6496,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6110,6 +6566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6173,6 +6633,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6404,6 +6868,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 1.0500005, z: 4}
   m_Center: {x: 0, y: -0.47499996, z: 0}
+--- !u!1 &788872944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 662864346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &789365850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -6650,6 +7119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6710,6 +7183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6769,6 +7246,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6855,6 +7336,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7009,6 +7494,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &852373882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852373876}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!4 &853668091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 86ea95598d9096d46825434c55116b16, type: 3}
@@ -7126,6 +7632,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7386,10 +7896,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs_wood
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1915650257}
   m_SourcePrefab: {fileID: 100100000, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
 --- !u!4 &879435271 stripped
 Transform:
@@ -7423,6 +7940,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &882731128
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882731122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1 &885976117 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
@@ -7607,6 +8145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7671,6 +8213,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7746,6 +8292,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7832,6 +8382,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8007,6 +8561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8072,6 +8630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8135,6 +8697,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8316,6 +8882,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8546,6 +9116,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.02
@@ -8568,6 +9142,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1100342031}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1100342035}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &1034564014 stripped
 Transform:
@@ -8748,6 +9325,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -8770,6 +9351,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2136954545}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2136954549}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1 &1061494662 stripped
 GameObject:
@@ -8854,6 +9438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8924,6 +9512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8989,6 +9581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9050,6 +9646,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1100342035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100342029}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!4 &1115046414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -9103,6 +9720,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -9125,6 +9746,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 882731124}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 882731128}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &1140262114 stripped
 Transform:
@@ -9252,6 +9876,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -9274,6 +9902,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 625443911}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 625443915}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1001 &1162642243
 PrefabInstance:
@@ -9326,6 +9957,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9386,6 +10021,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9507,6 +10146,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9666,6 +10309,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 0.20000473, z: 4}
   m_Center: {x: 0, y: 0.000002026558, z: 0}
+--- !u!1 &1209780364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1717529121}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1211338861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 13e59d8fcc8982745933cf4da8a5aeef, type: 3}
@@ -9823,11 +10471,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1337507175}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+--- !u!1 &1233754365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
+  m_PrefabInstance: {fileID: 876102180}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1235332512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -9891,7 +10551,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f8f07987934325d43af05d795a6d080f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 676733350}
+      addedObject: {fileID: 676733353}
   m_SourcePrefab: {fileID: 100100000, guid: f8f07987934325d43af05d795a6d080f, type: 3}
 --- !u!4 &1244303569 stripped
 Transform:
@@ -9946,6 +10606,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -9968,6 +10632,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 324263958}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 324263962}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1001 &1252428359
 PrefabInstance:
@@ -10021,6 +10688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10039,6 +10710,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
   m_PrefabInstance: {fileID: 662864346}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1253294812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788872944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -3.2558102e-21}
 --- !u!1 &1253709660
 GameObject:
   m_ObjectHideFlags: 0
@@ -10218,6 +10910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10330,6 +11026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10343,6 +11043,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
   m_PrefabInstance: {fileID: 1365098679}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1285364594
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709760308}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -7.148131e-20}
 --- !u!1 &1287540817 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
@@ -10370,6 +11091,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1287540823
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287540817}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 1.0000019, z: 0.0000004172325}
 --- !u!1001 &1288838471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10421,6 +11163,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10487,6 +11233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10527,6 +11277,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1303578147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303578141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1001 &1303961710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10578,6 +11349,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10695,6 +11470,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -10717,6 +11496,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1984628370}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1984628374}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &1312818713 stripped
 Transform:
@@ -10821,6 +11603,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10972,10 +11758,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2133093342}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!1001 &1334614009
 PrefabInstance:
@@ -11029,10 +11822,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1466823661}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!4 &1335593889 stripped
 Transform:
@@ -11065,6 +11865,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.9999998, y: 1.0500005, z: 4}
   m_Center: {x: 0, y: -0.47499996, z: 0}
+--- !u!1 &1337507172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1232094280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1337507175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337507172}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -7.148131e-20}
 --- !u!1001 &1343324954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11113,6 +11939,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -11135,6 +11965,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 380132936}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 380132940}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1 &1343443243 stripped
 GameObject:
@@ -11192,6 +12025,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11343,10 +12180,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1285364594}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!4 &1370439465 stripped
 Transform:
@@ -11713,6 +12557,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -11735,6 +12583,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1464922634}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1464922638}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1 &1402154551 stripped
 GameObject:
@@ -11905,10 +12756,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1620750165}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!1 &1426876980 stripped
 GameObject:
@@ -12100,6 +12958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12191,6 +13053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12251,6 +13117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12286,11 +13156,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1464922638
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464922632}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!4 &1466823658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
   m_PrefabInstance: {fileID: 1334614009}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1466823661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140562177}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -3.2558102e-21}
 --- !u!1 &1470623041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 13e59d8fcc8982745933cf4da8a5aeef, type: 3}
@@ -12374,10 +13286,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 269033734}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!4 &1483175262 stripped
 Transform:
@@ -12458,6 +13377,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -12480,6 +13403,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 619352528}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 619352532}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1001 &1492339307
 PrefabInstance:
@@ -12532,6 +13458,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12593,6 +13523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12601,6 +13535,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1548545194}
   m_SourcePrefab: {fileID: 100100000, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+--- !u!1 &1500594542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1424171671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1518076613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12656,6 +13595,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12725,6 +13668,32 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1621751295}
   m_SourcePrefab: {fileID: 100100000, guid: 13e59d8fcc8982745933cf4da8a5aeef, type: 3}
+--- !u!1 &1521679234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1706785841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1521679237
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521679234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -3.2558102e-21}
 --- !u!1001 &1522633967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12776,6 +13745,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12840,6 +13813,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12927,6 +13904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12991,6 +13972,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13097,10 +14082,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 664939696}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!1001 &1545238316
 PrefabInstance:
@@ -13234,7 +14226,7 @@ GameObject:
   - component: {fileID: 1556990261}
   m_Layer: 0
   m_Name: Lava (3)
-  m_TagString: Untagged
+  m_TagString: Morte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13457,6 +14449,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 1.0500005, z: 4}
   m_Center: {x: 0, y: -0.47499996, z: 0}
+--- !u!1 &1594169024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1742529511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1594169027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594169024}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -7.148131e-20}
 --- !u!4 &1594640146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -13536,6 +14554,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1598669410
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598669404}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1 &1600757359 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -13614,6 +14653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13648,6 +14691,79 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 1.0500005, z: 4}
   m_Center: {x: 0, y: -0.47499996, z: 0}
+--- !u!1001 &1607464331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2668955194765732568, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_Name
+      value: Knight
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.220776
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3333182932041969762, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374276841059744156, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_Height
+      value: 2.4514785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374276841059744156, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_Radius
+      value: 0.5289432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374276841059744156, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_Center.y
+      value: 1.1966641
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374276841059744156, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
+      propertyPath: m_Center.z
+      value: 0.07645309
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 423a38c97b426544f8afcbabb82e107a, type: 3}
 --- !u!1001 &1618816608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13700,6 +14816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13713,6 +14833,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
   m_PrefabInstance: {fileID: 1424171671}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1620750165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500594542}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -3.2558102e-21}
 --- !u!1001 &1621139657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13764,6 +14905,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13889,6 +15034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13971,6 +15120,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -13993,6 +15146,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1992444236}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1992444240}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &1630389731 stripped
 Transform:
@@ -14071,6 +15227,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14237,6 +15397,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -14259,6 +15423,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 313353303}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313353307}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1 &1642148319 stripped
 GameObject:
@@ -14360,6 +15527,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -14382,6 +15553,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1986269612}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1986269616}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1001 &1654288188
 PrefabInstance:
@@ -14434,6 +15608,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14511,7 +15689,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f8f07987934325d43af05d795a6d080f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2131886873}
+      addedObject: {fileID: 2131886876}
   m_SourcePrefab: {fileID: 100100000, guid: f8f07987934325d43af05d795a6d080f, type: 3}
 --- !u!1 &1676515611 stripped
 GameObject:
@@ -14596,6 +15774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14655,6 +15837,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14781,6 +15967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14841,10 +16031,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1521679237}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!1001 &1707016706
 PrefabInstance:
@@ -14951,6 +16148,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -14973,6 +16174,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1598669406}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1598669410}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1001 &1713743189
 PrefabInstance:
@@ -15025,6 +16229,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15212,10 +16420,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2093109362}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!4 &1720561258 stripped
 Transform:
@@ -15321,6 +16536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15356,6 +16575,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1725941412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725941406}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1001 &1728149792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15546,6 +16786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15610,10 +16854,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_wood_large (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1594169027}
   m_SourcePrefab: {fileID: 100100000, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
 --- !u!4 &1742795278 stripped
 Transform:
@@ -15671,6 +16922,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15841,6 +17096,131 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 1.0500005, z: 4}
   m_Center: {x: 0, y: -0.47499996, z: 0}
+--- !u!1 &1779370689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779370693}
+  - component: {fileID: 1779370692}
+  - component: {fileID: 1779370691}
+  - component: {fileID: 1779370690}
+  m_Layer: 0
+  m_Name: CinemachineCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1779370690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779370689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38bda98361e1de48a4ca2bd86ea3c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Composition:
+    ScreenPosition: {x: -0.0046874583, y: 0.69}
+    DeadZone:
+      Enabled: 0
+      Size: {x: 0.2, y: 0.2}
+    HardLimits:
+      Enabled: 0
+      Size: {x: 0.8, y: 0.8}
+      Offset: {x: 0, y: 0}
+  CenterOnActivate: 1
+  TargetOffset: {x: 0, y: -3.62, z: 0}
+  Damping: {x: 0.5, y: 0.5}
+  Lookahead:
+    Enabled: 0
+    Time: 0
+    Smoothing: 0
+    IgnoreY: 0
+--- !u!114 &1779370691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779370689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b617507da6d07e749b7efdb34e1173e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackerSettings:
+    BindingMode: 3
+    PositionDamping: {x: 1, y: 1, z: 1}
+    AngularDampingMode: 0
+    RotationDamping: {x: 1, y: 1, z: 1}
+    QuaternionDamping: 1
+  FollowOffset: {x: 0, y: 5, z: -4.5}
+--- !u!114 &1779370692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779370689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 476470314}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 60
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
+--- !u!4 &1779370693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779370689}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.20695072, y: 0.0047068777, z: -0.0009956582, w: 0.9783396}
+  m_LocalPosition: {x: -19.220776, y: 28.42, z: -54.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!1001 &1782959387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16013,6 +17393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16181,6 +17565,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16615,6 +18003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16753,6 +18145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16869,6 +18265,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17139,6 +18539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17330,6 +18734,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -17352,12 +18760,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 41319727}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 41319731}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &1915650254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
   m_PrefabInstance: {fileID: 876102180}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1915650257
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233754365}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6246154298496031678, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
 --- !u!1 &1917777624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 13e59d8fcc8982745933cf4da8a5aeef, type: 3}
@@ -17679,6 +19112,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -17701,6 +19138,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 852373878}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 852373882}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!4 &1954087738 stripped
 Transform:
@@ -17866,6 +19306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17900,6 +19344,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4, y: 1.0500005, z: 4}
   m_Center: {x: 0, y: -0.47499996, z: 0}
+--- !u!1 &1962979737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
+  m_PrefabInstance: {fileID: 319089347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1962979740
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962979737}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6246154298496031678, guid: 1b91efbd009d6484f8bfe16b06c626fa, type: 3}
 --- !u!1 &1963799418
 GameObject:
   m_ObjectHideFlags: 0
@@ -18283,6 +19754,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1984628374
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984628368}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1 &1986269610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
@@ -18310,6 +19802,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1986269616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986269610}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 1.0000019, z: 0.0000004172325}
 --- !u!4 &1986769848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 13e59d8fcc8982745933cf4da8a5aeef, type: 3}
@@ -18387,6 +19900,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18480,6 +19997,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &1992444240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992444234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!4 &1992803618 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -18704,6 +20242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18768,6 +20310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18831,6 +20377,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18923,6 +20473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19005,6 +20559,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      propertyPath: m_TagString
+      value: Morte
+      objectReference: {fileID: 0}
     - target: {fileID: -6210141383899247147, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.08
@@ -19027,6 +20585,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1725941408}
+    - targetCorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1725941412}
   m_SourcePrefab: {fileID: 100100000, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
 --- !u!1001 &2078678889
 PrefabInstance:
@@ -19079,6 +20640,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19139,6 +20704,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19252,6 +20821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19291,6 +20864,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
   m_PrefabInstance: {fileID: 1717529121}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2093109362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209780364}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -7.148131e-20}
 --- !u!4 &2093400267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
@@ -19455,6 +21049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19541,6 +21139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19600,6 +21202,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19723,6 +21329,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19897,6 +21507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19910,8 +21524,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f8f07987934325d43af05d795a6d080f, type: 3}
   m_PrefabInstance: {fileID: 1660211545}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &2131886873
-BoxCollider:
+--- !u!64 &2131886876
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -19928,9 +21542,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4, y: 4, z: 1.0000006}
-  m_Center: {x: 0, y: 2, z: -0.00000031292439}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -161240112037290497, guid: f8f07987934325d43af05d795a6d080f, type: 3}
 --- !u!1001 &2132910357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19983,6 +21598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_tile_big_grate_open (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19991,6 +21610,32 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1849523699}
   m_SourcePrefab: {fileID: 100100000, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+--- !u!1 &2133093339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c872a3229bec577428b0c3cc6f03bac5, type: 3}
+  m_PrefabInstance: {fileID: 1330611764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2133093342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133093339}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.15000065, z: 4}
+  m_Center: {x: 0, y: -0.025000006, z: -7.148131e-20}
 --- !u!1 &2136954543 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7139261109480557378, guid: 22780d83552a68c44b6ff037d245ceea, type: 3}
@@ -20018,6 +21663,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &2136954549
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136954543}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2, y: 2.0000005, z: 2.2000003}
+  m_Center: {x: 0, y: 0.99999994, z: 0.0000004172325}
 --- !u!1001 &2136966532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20069,6 +21735,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
       propertyPath: m_Name
       value: floor_tile_big_grate_open (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da2c1d5dc729e444485eac12b4bfbad2, type: 3}
+      propertyPath: m_TagString
+      value: Chao
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20204,3 +21874,5 @@ SceneRoots:
   - {fileID: 765932662}
   - {fileID: 874323042}
   - {fileID: 1538047247}
+  - {fileID: 1607464331}
+  - {fileID: 1779370693}
