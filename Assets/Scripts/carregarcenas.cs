@@ -14,8 +14,4 @@ public class carregarcenas : MonoBehaviour
     {
         SceneManager.LoadScene("Fase1");
     }
-     public void Fase2()
-    {
-        SceneManager.LoadScene("Fase2");
-    }
 }

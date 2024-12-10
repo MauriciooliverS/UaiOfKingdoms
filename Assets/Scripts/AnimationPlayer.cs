@@ -1,10 +1,16 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AnimationPlayer : MonoBehaviour
 {
     [SerializeField] private Animator animPlayer;
     [SerializeField] private MovementPlayer move;
     private bool estaNoChao = true;
+    public bool Espada = false;
+    public bool Capacete = false;
+    public bool Escudo = false;
+    public bool ArmNdShiel = false;
+    public bool liberaEspada = false;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -95,7 +101,22 @@ public class AnimationPlayer : MonoBehaviour
             animPlayer.SetTrigger("Morte");
             Time.timeScale = 0;
         }
+
+        if(collision.gameObject.CompareTag("Portao"))
+        {
+            if(Espada == true)
+            {
+                SceneManager.LoadScene("Fase2");
+            }
+        }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(other.gameObject);
+        Espada = true;
+    }
+
+    
     void Update()
     {
         //Pulando
