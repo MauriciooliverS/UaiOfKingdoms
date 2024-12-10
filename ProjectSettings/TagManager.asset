@@ -7,8 +7,13 @@ TagManager:
   - Chao
   - Morte
   - Chave
+<<<<<<< HEAD
   - Porta
   - Comida
+=======
+  - Espada
+  - Portao
+>>>>>>> b0f9c832e6abc82a20180de04238f6847cb977ef
   layers:
   - Default
   - TransparentFX
