@@ -8,8 +8,6 @@ public class AnimationPlayer : MonoBehaviour
     private bool estaNoChao = true;
  
     
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animPlayer = GetComponent<Animator>();
@@ -17,7 +15,6 @@ public class AnimationPlayer : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    // Update is called once per frame
     void Update()
     {
         //Pulando

@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,17 +7,19 @@ public class FuncoesF1 : MonoBehaviour
     public bool Espada = false;
     public bool Capacete = false;
     public bool Escudo = false;
-    public bool ArmNdShiel = false;
-    public bool liberaEspada = false;
     [SerializeField] private Animator animPlayer;
     [SerializeField] private MovementPlayer move;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         
      
     }
-    
+        void Update()
+    {
+        
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.CompareTag("Portao"))
@@ -27,14 +30,26 @@ public class FuncoesF1 : MonoBehaviour
             }
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
-        Espada = true;
+        if(other.gameObject.CompareTag("Espada"))
+        {
+            Destroy(other.gameObject);
+            Espada = true;
+        }
+        if(other.gameObject.CompareTag("Capacete"))
+        {
+            Destroy(other.gameObject);
+            Capacete = true;
+        }
+        if(other.gameObject.CompareTag("Escudo"))
+        {
+            Destroy(other.gameObject);
+            Escudo = true;
+        }
+
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }

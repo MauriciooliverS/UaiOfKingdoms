@@ -4,6 +4,8 @@ public class AtivadorObjetos : MonoBehaviour
 {
     private FuncoesF1 player;
     public GameObject maoEspada;
+    public GameObject Escudo;
+    public GameObject Capacete;
 
     void Start()
     {
@@ -25,12 +27,12 @@ public class AtivadorObjetos : MonoBehaviour
 
         if(player.Escudo == true)
         {
-       //     escudos.SetActive(true);
+            Escudo.SetActive(true);
         }
 
         if(player.Capacete == true)
         {
-       //     capaceteC.SetActive(true);
+            Capacete.SetActive(true);
         }
     }
 }
