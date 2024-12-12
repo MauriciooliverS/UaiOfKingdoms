@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class AtivadorObjetos : MonoBehaviour
 {
-    private AnimationPlayer player;
+    private FuncoesF1 player;
     public GameObject maoEspada;
 
     void Start()
     {
-        player = GameObject.FindFirstObjectByType<AnimationPlayer>();        
+        player = GameObject.FindFirstObjectByType<FuncoesF1>();        
     }
 
 

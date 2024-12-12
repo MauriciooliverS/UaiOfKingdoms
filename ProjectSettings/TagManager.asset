@@ -4,16 +4,14 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Chao
   - Morte
+  - Chao
   - Chave
-<<<<<<< HEAD
   - Porta
   - Comida
-=======
-  - Espada
-  - Portao
->>>>>>> b0f9c832e6abc82a20180de04238f6847cb977ef
+  - OcultaSala
+  - ChaveErrada
+  - PortaFinal
   layers:
   - Default
   - TransparentFX
@@ -53,10 +51,3 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
-  - Light Layer 1
-  - Light Layer 2
-  - Light Layer 3
-  - Light Layer 4
-  - Light Layer 5
-  - Light Layer 6
-  - Light Layer 7
