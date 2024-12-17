@@ -1,16 +1,34 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Textos : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public AnimationPlayer player;
+    public GameObject cTutor1;
+    public GameObject cTutor2;
+    public GameObject textoRei;
+
     void Start()
     {
-        
+        player = GetComponent<AnimationPlayer>();
+        cTutor1.SetActive(true);
+        cTutor2.SetActive(false);
+        textoRei.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other) 
     {
+        if(other.gameObject.CompareTag("Tutorial"))
+        {
+            cTutor1.SetActive(false);
+            cTutor2.SetActive(true);
+        }
         
+        if(other.gameObject.CompareTag("Misson"))
+        {
+            textoRei.SetActive(true);
+            cTutor2.SetActive(false);
+        }
     }
 }

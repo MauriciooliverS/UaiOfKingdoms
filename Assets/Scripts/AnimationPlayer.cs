@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,7 @@ public class AnimationPlayer : MonoBehaviour
     [SerializeField] private Animator animPlayer;
     [SerializeField] private MovementPlayer move;
     private bool estaNoChao = true;
+    private bool tutor;
  
     
     void Start()
@@ -105,5 +107,7 @@ public class AnimationPlayer : MonoBehaviour
             animPlayer.SetTrigger("Morte");
             Time.timeScale = 0;
         }
-}
+    }
+
+    
 }
