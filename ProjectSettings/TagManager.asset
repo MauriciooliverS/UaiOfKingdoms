@@ -5,18 +5,22 @@ TagManager:
   serializedVersion: 3
   tags:
   - Morte
-  - Chao
-  - Chave
-  - Porta
-  - Comida
   - OcultaSala
+  - Chao
+  - Porta
   - ChaveErrada
-  - PortaFinal
-  - Espada
-  - Portao
+  - Chave
+  - Comida
   - Capacete
+  - Espada
   - Escudo
+<<<<<<< HEAD
   - Saida
+=======
+  - Portao
+  - Tutorial
+  - Misson
+>>>>>>> 4290d78110b9c08399259552e8f6c25d91c2c2dc
   layers:
   - Default
   - TransparentFX

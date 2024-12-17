@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,7 @@ public class AnimationPlayer : MonoBehaviour
     [SerializeField] private Animator animPlayer;
     [SerializeField] private MovementPlayer move;
     private bool estaNoChao = true;
+    private bool tutor;
  
     
     void Start()
@@ -103,5 +105,16 @@ public class AnimationPlayer : MonoBehaviour
             animPlayer.SetBool("NoChao", true);
             estaNoChao = true;
         }
+<<<<<<< HEAD
     }
+=======
+        if(collision.gameObject.CompareTag("Morte"))
+        {
+            animPlayer.SetTrigger("Morte");
+            Time.timeScale = 0;
+        }
+    }
+
+    
+>>>>>>> 4290d78110b9c08399259552e8f6c25d91c2c2dc
 }

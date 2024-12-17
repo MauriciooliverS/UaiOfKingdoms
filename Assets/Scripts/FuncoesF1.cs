@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class FuncoesF1 : MonoBehaviour
 {
+    public bool portaAberta = false;
     public bool Espada = false;
     public bool Capacete = false;
     public bool Escudo = false;
@@ -47,9 +48,19 @@ public class FuncoesF1 : MonoBehaviour
         {
             Destroy(other.gameObject);
             Escudo = true;
-        }
-
+        }  
     }
 
+    void OnTriggerStay(Collider other)
+    {
+            if(other.gameObject.CompareTag("Porta") )
+        {
+            if (Input.GetKey(KeyCode.E))
+            {
+                other.gameObject.GetComponent<Animator>().SetTrigger("abrePorta");        
+                portaAberta = true;
+            }
+        }
+    }
 
 }
