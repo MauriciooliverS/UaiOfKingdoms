@@ -16,6 +16,7 @@ TagManager:
   - Portao
   - Capacete
   - Escudo
+  - Saida
   layers:
   - Default
   - TransparentFX

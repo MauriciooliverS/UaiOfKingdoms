@@ -1,8 +1,10 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FuncoesF2 : MonoBehaviour
 {
+    public GameOver puxaGameOver;
     public bool estaComChave = false;
     public bool portaAberta = false;
     [SerializeField] private Animator animPlayer;
@@ -13,6 +15,7 @@ public class FuncoesF2 : MonoBehaviour
     void Start()
     {
         animPlayer = GetComponent<Animator>();
+        puxaGameOver = GameObject.FindFirstObjectByType<GameOver>();
         
     }
 
@@ -56,6 +59,32 @@ public class FuncoesF2 : MonoBehaviour
         
             Destroy(other.gameObject);
         }
+        if(other.gameObject.CompareTag("Saida"))
+        
+        {
+        
+            SceneManager.LoadScene("Menu");
+        }
     }
+    public void PlayerMorto()
+    {
+        Time.timeScale = 0;
+        puxaGameOver.MorrePlayer();
+    }
+    public void PlayerVivo()
+    {
+        Time.timeScale = 1;
+       
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+       
+        if(collision.gameObject.CompareTag("Morte"))
+        {
+            animPlayer.SetTrigger("Morte");
+            PlayerMorto();
+        }
+}
 }
 
