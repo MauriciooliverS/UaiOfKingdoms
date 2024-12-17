@@ -1,15 +1,19 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class DestruirObjetos : MonoBehaviour
+public class FuncoesF2 : MonoBehaviour
 {
     public bool estaComChave = false;
+    public bool portaAberta = false;
     [SerializeField] private Animator animPlayer;
+    
+    
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animPlayer = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -17,11 +21,6 @@ public class DestruirObjetos : MonoBehaviour
     {
 
     }    
-    void RevelaSala()
-    {
-
-    }
-
     void OnTriggerStay(Collider other)
     {
         
@@ -40,17 +39,23 @@ public class DestruirObjetos : MonoBehaviour
             {
                 Destroy(other.gameObject);
             }
+        }
 
-            if(other.gameObject.CompareTag("Porta") )
+        if(other.gameObject.CompareTag("Porta") )
         {
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKey(KeyCode.E) && estaComChave == true)
             {
                 other.gameObject.GetComponent<Animator>().SetTrigger("abrePorta");
-                RevelaSala();
+               portaAberta = true;        
+                
             }
         }  
+        if(other.gameObject.CompareTag("OcultaSala"))
+        
+        {
+        
+            Destroy(other.gameObject);
+        }
     }
 }
-}
-
 

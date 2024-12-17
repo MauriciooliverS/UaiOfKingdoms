@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class AtivadorObjetos : MonoBehaviour
 {
-    private AnimationPlayer player;
+    private FuncoesF1 player;
     public GameObject maoEspada;
+    public GameObject Escudo;
+    public GameObject Capacete;
 
     void Start()
     {
-        player = GameObject.FindFirstObjectByType<AnimationPlayer>();        
+        player = GameObject.FindFirstObjectByType<FuncoesF1>();        
     }
 
 
@@ -25,12 +27,12 @@ public class AtivadorObjetos : MonoBehaviour
 
         if(player.Escudo == true)
         {
-       //     escudos.SetActive(true);
+            Escudo.SetActive(true);
         }
 
         if(player.Capacete == true)
         {
-       //     capaceteC.SetActive(true);
+            Capacete.SetActive(true);
         }
     }
 }
