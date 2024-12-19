@@ -3,16 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+<<<<<<< HEAD
+  tags: []
+=======
   tags:
   - Morte
-  - OcultaSala
   - Chao
-  - Porta
-  - ChaveErrada
   - Chave
+  - Porta
   - Comida
-  - Capacete
+  - OcultaSala
+  - ChaveErrada
+  - PortaFinal
   - Espada
+<<<<<<< HEAD
   - Escudo
 <<<<<<< HEAD
   - Saida
@@ -21,6 +25,12 @@ TagManager:
   - Tutorial
   - Misson
 >>>>>>> 4290d78110b9c08399259552e8f6c25d91c2c2dc
+=======
+  - Portao
+  - Capacete
+  - Escudo
+>>>>>>> 5af857bfd4670501af64f8d8a52afaccd3108a6b
+>>>>>>> parent of 4290d78 (fase1 pronta)
   layers:
   - Default
   - TransparentFX
