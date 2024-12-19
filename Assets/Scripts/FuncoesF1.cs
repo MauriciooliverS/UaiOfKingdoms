@@ -10,6 +10,7 @@ public class FuncoesF1 : MonoBehaviour
     public bool Escudo = false;
     [SerializeField] private Animator animPlayer;
     [SerializeField] private MovementPlayer move;
+    [SerializeField] private GameObject dialogo;
 
     void Start()
     {
@@ -60,6 +61,17 @@ public class FuncoesF1 : MonoBehaviour
                 other.gameObject.GetComponent<Animator>().SetTrigger("abrePorta");        
                 portaAberta = true;
             }
+        }
+        if(other.gameObject.CompareTag("Dialogo"))
+        {
+            dialogo.SetActive(true);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.CompareTag("Dialogo"))
+        {
+            dialogo.SetActive(false);
         }
     }
 

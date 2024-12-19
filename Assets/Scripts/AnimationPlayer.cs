@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class AnimationPlayer : MonoBehaviour
 {
+    public FuncoesF2 puxaFuncoesF2;
     [SerializeField] private Animator animPlayer;
     [SerializeField] private MovementPlayer move;
     private bool estaNoChao = true;
@@ -14,6 +15,7 @@ public class AnimationPlayer : MonoBehaviour
     {
         animPlayer = GetComponent<Animator>();
         move = GetComponent<MovementPlayer>();
+        puxaFuncoesF2 = GetComponent<FuncoesF2>();
         Time.timeScale = 1;
     }
 
@@ -106,6 +108,7 @@ public class AnimationPlayer : MonoBehaviour
         {
             animPlayer.SetTrigger("Morte");
             Time.timeScale = 0;
+            puxaFuncoesF2.PlayerMorto();
         }
     }
 

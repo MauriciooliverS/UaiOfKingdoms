@@ -7,14 +7,14 @@ public class Textos : MonoBehaviour
     public AnimationPlayer player;
     public GameObject cTutor1;
     public GameObject cTutor2;
-    public GameObject textoRei;
+    
 
     void Start()
     {
         player = GetComponent<AnimationPlayer>();
         cTutor1.SetActive(true);
         cTutor2.SetActive(false);
-        textoRei.SetActive(false);
+       
     }
 
     private void OnTriggerEnter(Collider other) 
@@ -27,7 +27,7 @@ public class Textos : MonoBehaviour
         
         if(other.gameObject.CompareTag("Misson"))
         {
-            textoRei.SetActive(true);
+           
             cTutor2.SetActive(false);
         }
     }

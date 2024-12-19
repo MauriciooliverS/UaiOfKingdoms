@@ -17,6 +17,8 @@ TagManager:
   - Portao
   - Tutorial
   - Misson
+  - Saida
+  - Dialogo
   layers:
   - Default
   - TransparentFX
